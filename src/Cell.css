@@ -1,0 +1,13 @@
+td {
+    width: 1.6em;
+    height: 1em;
+    padding: 1ex;
+    border: 1px solid black;
+    border-radius: 0.5ex;
+    text-align: center;
+}
+
+.prime {
+    background-color: #336;
+    color: white;
+}

@@ -1,17 +1,14 @@
+//Nestor Alfaro 04/07/2022
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import PrimeTable from './PrimeTable';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* PrimeTable defaults to 10*10, however you may also specify its size through the rows and cols attributes*/}
+    {/* <PrimeTable rows={10} cols={10}/> */}
+    <PrimeTable />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
