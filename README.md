@@ -4,6 +4,9 @@ By Nestor Alfaro
 ## Description
 Displays the prime numbers as a table through the `<PrimeTable/>` component. This component also accepts a custom range through the `rows` and `cols` attributes–e.g., `<PrimeTable rows={7} cols={14}/>` will render a table 7x14 where each blue cell is a prime number. `<PrimeTable/>` defaults to a 10x10 table.
 
+## Demo
+<img width="801" alt="prime-numbers-demo" src="https://user-images.githubusercontent.com/83131937/172973515-eb3cff41-892b-4725-99f0-2d4354d9702f.png">
+
 # Default Create-React-App documentation
 
 ## Getting Started with Create React App
